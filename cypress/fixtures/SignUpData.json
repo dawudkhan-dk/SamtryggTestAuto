@@ -1,0 +1,19 @@
+{
+    "TenantSignUpData": {
+        "FirstName": "mohsin",
+        "LastName": "633tenant",
+        "PhoneNumber": "03130192439",
+        "Email": "mohsin+2060tenant@samtrygg.se",
+        "Password": "Admin@123",
+        "ConfirmPassword": "Admin@123"
+    },
+
+    "LandlordSignUpData": {
+        "FirstName": "mohsin",
+        "LastName": "628landlord",
+        "PhoneNumber": "03130192439",
+        "Email": "mohsin+2064landlord@samtrygg.se",
+        "Password": "Admin@123",
+        "ConfirmPassword": "Admin@123"
+    }
+}

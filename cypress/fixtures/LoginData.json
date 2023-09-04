@@ -1,0 +1,12 @@
+{
+  "LandlordValidEmail": "mohsin+2063landlord@samtrygg.se",
+  "TenantValidEmail": "mohsin+2059tenant@samtrygg.se",
+  "ValidPassword": "Admin@123",
+  "InvalidEmail": "mohsin+012tenant@sattrrgg.se",
+  "InvalidPassword": "admi3241",
+  "TenantEmailForViewing": "mohsin+2063tenant@samtrygg.se",
+  "LandlordEmailForViewing": "mohsin+2065landlord@samtrygg.se",
+  "LandlordEmailSelfservice": "mohsin+335landlord@samtrygg.se",
+  "LandlordEmailForAgreement": "mohsin+2067landlord@samtrygg.se",
+  "TenantEmailForAgreement": "mohsin+2066tenant@samtrygg.se"
+}

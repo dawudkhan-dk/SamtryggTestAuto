@@ -1,0 +1,327 @@
+{
+    "Stage01BaseURL": "https://stage01.dev.samtrygg.se/",
+    "Stage03BaseURL": "https://stage03.dev.samtrygg.se/",
+    "ProdBaseURL": "https://samtrygg.se/",
+    "Flag": "[class='language language--en language-selected transparentBackground']",
+    "NavigateSignInPage": ".headData > :nth-child(5) > a",
+    "NavigateSignUpPage": ".headData > :nth-child(4) > a",
+    
+      "SignInPage": 
+      {
+        "Header": "[class='contentH1 fl fl-text-center']",
+        "HeaderText": "Sign in",
+        "EmailPlaceholder": "[id='loginEmail']",
+        "PasswordPlaceholder": "[id='loginPassword']",
+        "SignInButton": "[class='button fl-btn fl-btn-md fl-btn-primary login']",
+        "VerifyCodeCloseIcon": "[id='otp-header-close-item']",
+        "LoginedPageHeader": "[class='top-section-panel__h1']",
+        "LoginedPageHeaderText": "Explore your future home",
+        "NotLoginedValidationMessage": "[class='RED error-mobile']",
+        "NotLoginedValidationMessageText": "The e-mail or password you filled in is incorrect"
+      },
+
+    "SignUpPage":
+    {
+      "Header": "[class='contentH1 fl fl-text-center']",
+      "HeaderText": "Create an account",
+      "ChooseTenant": "[class='left MB10']",
+      "ChooseLandlord": "[class='right MB10']",
+      "FirstNamePlaceholder": "[id='FirstName']",
+      "LastNamePlaceholder": "[id='LastName']",
+      "PhoneNumberPlaceholder": "[id='Phone']",
+      "EmailPlaceholder": "[id='Email']",
+      "Password": "[id='Password']",
+      "ConfirmPasswordPlaceholder": "[id='Password2']",
+      "CreateYourFreeAccountButton": "[class='button fl-btn fl-btn-md fl-btn-primary login CAPITAL']",
+      "VerifyEmail": ".section-wrapper > .row > :nth-child(1)",
+      "VerifyEmailText": "Verify your e-mail"
+    },
+
+    "TenantCompleteProfile":
+    {
+      "Menu": "[class='nav-item has-dropdown userName not-click']",
+      "MyProfile": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--my_profile'])[2]",
+      "FirstName": "[id='first-name']",
+      "Surname": "[id='last-name']",
+      "PhoneNumber": "[id='phone']",
+      "PersonalDescription": "[id='Description']",
+      "AboutYourSelfNextButton": "[class='wizard-next btn btn-primary pull-right']",
+
+      "HouseTypeHeader": ".apt-type > .medium-12 > :nth-child(1) > .showHideTooltip",
+      "HouseType": "label[class='css-input css-checkbox css-checkbox-danger'] input[id='object-type-1']",
+      "Household": "[class='form-material floating MT5 open'] select[id='cvdata_3']",
+      "Smoker": "[class='form-material floating MT5 open'] select[id='cvdata_8']",
+      "FormOfEmployment": "[class='form-material floating MT5 open'] select[id='cvdata_5']",
+      "Profession": "[class='form-material floating MT5 open'] input[id='cvdata_4']",
+      "Education": "[class='form-material floating MT5 open'] select[id='cvdata_6']",
+      "Pets": "[class='form-material floating MT5 open'] select[id='cvdata_9']",
+      "SearchCriteriaNextButton": "[class='wizard-next btn btn-primary pull-right']",
+
+      
+      "MoveInDate": "[id='start-rental-date']",
+      "MoveInDatePicker": "[class='ui-datepicker-calendar']",
+      "CalendarBody": "tbody",
+      "WeekDays": "tr",
+      "NumberOfRooms": "[class='form-material floating open'] select[id='MinRooms']",
+      "AreaSize": "[class='form-material floating open'] input[id='MinSquareMeters']",
+      "Slidertext": "[class='irs-single']",
+      "SliderBar": "[class='irs-bar']",
+      "Slider": "[class='irs-slider single']",
+      "WhatsRentNextButton": "[class='wizard-next btn btn-primary pull-right']",
+
+      "Maps": "[class='col medium-12'] div[id='larger-map']",
+      "CityInterestedHeader": "[class='details showHideTooltip']",
+      "CityInterestedHeaderText": "Enter a city/district/area that you are interested in.",
+      "Address": "input[id='Address']",
+      "AddressList": "[class='search-place-results']",
+      "AddressInTheList": "Stockholm, Sverige",
+      "ProfileSaveButton": "[class='wizard-finish btn btn-primary pull-right']"
+
+
+    },
+
+    "CreateAdAndEditAd":
+    {
+      "Menu": "[class='nav-item has-dropdown userName not-click']",
+      "EditMyAd": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--edit-my-ad'])[2]",
+
+      
+      "Address": "input[id='Address']",
+      "AddressList": "[id='ui-id-1']",
+      "NumberofStairs": "[id='NoOfStairs']",
+      "AddressTabNextButton": "[class='wizard-next btn btn-primary']",
+
+      "MoveInDate": "[id='txtFromDate']",
+      "MoveInDatePicker": "(//table[@class='ui-datepicker-calendar'])",
+      "CalendarBody": "tbody",
+      "WeekDays": "tr",
+      "UntillFurtherNotice": "input[id='moving-out-checkbox']",
+      "MonthlyRent": "[id='monthlyrentals']",
+      "NumberOfRooms": "[name='NumberOfRooms']",
+      "SquareMeterArea": "[id='areaOfRums']",
+      "WhatsRentTabNextTab": "[class='wizard-next btn btn-primary']",
+
+      "AmenitiesTabHeader": "h6[class='P015p']",
+      "AmenitiesTabHeaderText": "Amenities (Optional)",
+      "Shower": "input[name='amenity_4']",
+      "Bathtub": "input[name='amenity_3']",
+      "Kitchen": "input[name='amenity_5']",
+      "AmenitiesTabNextButton": "[class='wizard-next btn btn-primary']",
+
+      "Description": "[id='Description']",
+      "Furnishing": "[id='Furniture']",
+      "Coopartment": "input[id='box2']",
+      "DescribePropertyTabNextButton": "[class='wizard-next btn btn-primary']",
+
+      "UploadPhotoTab": "li[data-original-title='Upload photos']",
+      "UploadPhoto": "input[id='ImageUpload']",
+      "UploadPhotoTabNextButton": "[class='wizard-next btn btn-primary']",
+
+      "BothViewing": "[id='viewingSubtype-1']",
+      "TimeSlot": "input[id='op3']",
+      "StartingFrom": "[id='ViewingStartDate']",
+      "StartingFromDatePicker": "[class='ui-datepicker-calendar']",
+      "TimeSlotsPageNextButton": "[class='wizard-next btn btn-primary']",
+
+      "SaveAdButton": "[class='wizard-finish btn btn-primary']"
+    },
+
+    "BookAViewing": 
+    {
+      "Menu":"[class='nav-item has-dropdown userName not-click']",
+      "SavedHome": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--my-homes'])[2]",
+
+      "AddressContainer": "[class='col medium-3']",
+      "AddressContainerText": "Walls väg 15, 434 91 Kungsbacka",
+      "SeeMoreButton": "//a[@class='button' and contains(@href, '/qfmguktarfgf9muzjs7e/halland/kungsbacka/walls-vag-15/6-rok')]",
+
+      "RODetailPageAddressContainer": "[id='js-scroll-to-map']",
+      "RODetailPageAddressContainerText": "Walls väg 15, 434 91 Kungsbacka",
+      "BookAViewingButton": "[class='d-price__btn']",
+
+      "TimeSlotButton": "[class='col medium-6']",
+
+      "VideoViewingButton": "[type='submit'][value='2']",
+
+      "BookedViewingHeader": "[class='mod-header']",
+      "BookedViewingHeaderText": "\n                    Booked viewing\n                ",
+      "BookedViewingAddress": "[class='col medium-3 address']",
+      "BookedViewingAddressText": "Walls väg 15, 434 91 Kungsbacka",
+
+      "Viewings": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--viewings'])[2]",
+      "ManageViewingButton": "[class='sam-btn manage-btn__btn sam-btn--white']",
+      "RescheduleButton": "[class='sam-btn manage-btn__item m-0 sam-btn--white']",
+      "RescheduleButtonText": "Reschedule",
+
+      "SecondTimeSlotButton": "[class='col medium-6']",
+      "ViewingPageCancelButton": "[class='sam-btn manage-btn__item m-0 sam-btn--white']",
+      "ViewingPageCancelButtonText": "Cancel",
+      "FinalCancelButton": "[type='button'][value='Cancel ']",
+      "YesButton": "[type='submit'][value='Yes ']"
+    },
+
+    "LandlordSelfServiceAdStatus":
+    {
+      "Menu": "[class='nav-item has-dropdown userName not-click']",
+      "EditMyAd": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--edit-my-ad'])[2]",
+
+      
+      "Address": "input[id='Address']",
+      "AddressList": "[id='ui-id-1']",
+      "NumberofStairs": "[id='NoOfStairs']",
+      "AddressTabNextButton": "[class='wizard-next btn btn-primary']",
+
+      "MoveInDate": "[id='txtFromDate']",
+      "MoveInDatePicker": "(//table[@class='ui-datepicker-calendar'])",
+      "CalendarBody": "tbody",
+      "WeekDays": "tr",
+      "UntillFurtherNotice": "input[id='moving-out-checkbox']",
+      "MonthlyRent": "[id='monthlyrentals']",
+      "NumberOfRooms": "[name='NumberOfRooms']",
+      "SquareMeterArea": "[id='areaOfRums']",
+      "WhatsRentTabNextTab": "[class='wizard-next btn btn-primary']",
+
+      "AmenitiesTabHeader": "h6[class='P015p']",
+      "AmenitiesTabHeaderText": "Amenities (Optional)",
+      "Shower": "input[name='amenity_4']",
+      "Bathtub": "input[name='amenity_3']",
+      "Kitchen": "input[name='amenity_5']",
+      "AmenitiesTabNextButton": "[class='wizard-next btn btn-primary']",
+
+      "Description": "[id='Description']",
+      "Furnishing": "[id='Furniture']",
+      "Coopartment": "input[id='box2']",
+      "DescribePropertyTabNextButton": "[class='wizard-next btn btn-primary']",
+
+      "UploadPhotoTab": "li[data-original-title='Upload photos']",
+      "UploadPhoto": "input[id='ImageUpload']",
+      "UploadPhotoTabNextButton": "[class='wizard-next btn btn-primary']",
+
+      "BothViewing": "[id='viewingSubtype-1']",
+      "TimeSlot": "input[id='op3']",
+      "StartingFrom": "[id='ViewingStartDate']",
+      "StartingFromDatePicker": "[class='ui-datepicker-calendar']",
+      "TimeSlotsPageNextButton": "[class='wizard-next btn btn-primary']",
+
+
+      "SaveAdButton": "[class='wizard-finish btn btn-primary']"
+    },
+    
+    "LandlordAssertion":
+    {
+      "Menu": "[class='nav-item has-dropdown userName not-click']",
+      "Overview": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--overview'])[2]",
+      "OverviewHeader1": "div[class='mod-header'] h1",
+      "OverviewHeader1Text": "Booked viewings",
+
+      "ContractnPayments": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--contracts-n-payments'])[2]",
+      "CnPHeader1": "[class='mod-header'] h1",
+      "CnPHeader1Text": "Contract",
+      "CnPHeader2": "[class='mod-header'] h1",
+      "CnPHeader2Text": "Payments",
+
+      "Settings": "li a[href='/Account/Settings']",
+      "SettingsHeader1": "[class='mod-header']",
+      "SettingsHeader1Text": "\n            Contact preferences\n        ",
+      "Information": "[class='row'] h4",
+      "InformationText": "Contact preferences - I want the following information:",
+      "ContactInformationHeader": "[class='settings-content__left col medium-7'] h6",
+      "ContactInformationHeaderText": "Contact information",
+      "PhoneNumber": "[id='LPPPhoneInput']",
+      "Email": "[id='email']",
+      "Language": "[id='langauge']",
+      "BankIDHeader": "[class='settings-content__left col medium-7'] h6",
+      "BankIDHeaderText": "Verify your personal number with BankID",
+      "SSNField": "[id='ssn']",
+      "BankIDLoginButton": "[id='BankIdLoginBtn']",
+      "LogInWithQRCodeButton": "[type='button']",
+      "LogInWithQRCodeButtonText": "Sign in via QR code",
+      "ChangePasswordHeader": "[class='settings-content__left col medium-7'] h6",
+      "ChangePasswordHeaderText": "Change password",
+      "OldPassword": "[id='OldPass']",
+      "NewPassword": "[id='Pass']",
+      "ConfirmPassword": "[id='ConfirmPass']",
+      "SavedChangesButton": "[type='submit'][value='Save changes']",
+      "IWantToBecomeATenantButton": "[type='submit'][value='I want to become a tenant']",
+      "SettingsHeader2": "[class='mod-header'] h1",
+      "SettingsHeader2Text": "Update email address",
+      "ExistingEmail": "[id='existingEmail']",
+      "NewEmail": "[id='newEmail']",
+      "ConfirmNewEmail": "[id='confirmEmail']",
+      "UpdateEmailButton": "[type='submit'][value='Update email address']",
+      
+      "Logout": "li a[href='/Account/LogOff']",
+      "HomePageHeader": "[class='top-section-panel__h1']",
+      "HomePageHeaderText": "Explore your future home"
+    },
+
+    "TenantAssertion":
+    {
+      "Menu": "[class='nav-item has-dropdown userName not-click']",
+      "Overview": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--overview'])[2]",
+      "MyMatchedObjects": "[class='mod-header'] h1",
+      "MyMatchedObjectsText": "My matched objects",
+      "MyBookedViewings": "[class='mod-header'] h1",
+      "MyBookedViewingsText": "My booked viewings",
+
+      "MatchednSavedObjects": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--my-homes'])[2]",
+      "MySavedOgjects": "[class='mod-header'] h1",
+      "MySavedOgjectsText": "My saved objects",
+
+      "RentalApplications": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--applications'])[2]",
+      "RentalApplicationsHeader": "[class='mod-header']",
+      "RentalApplicationsHeaderText": "Rental applications",
+
+      "ContractnPayments": "(//div[@class='dropdown-icon']//i[@class='dropdown-icon__i dropdown-icon__i--contracts-n-payments'])[2]",
+      "CnPHeader1": "[class='mod-header'] h1",
+      "CnPHeader1Text": "Contract",
+      "CnPHeader2": "[class='mod-header'] h1",
+      "CnPHeader2Text": "Payments",
+
+       "Settings": "li a[href='/Account/Settings']",
+       "SettingsHeader1": "[class='mod-header']",
+      "SettingsHeader1Text": "\n            Contact preferences\n        ",
+      "Information": "[class='row'] h4",
+      "InformationText": "Contact preferences - I want the following information:",
+      "Immediately": "[class='settings-content__left col medium-7']", 
+      "ImmediatelyText": "Immediately", 
+      "Daily": "[class='settings-content__left col medium-7']", 
+      "DailyText": "Daily",
+      "EveryWeek": "[class='settings-content__left col medium-7']", 
+      "EveryWeekText": "Every week",
+      "IncomingRentPayment": "[class='settings-content__left col medium-7']", 
+      "IncomingRentPaymentText": "Incoming rent payment",
+      "ViewingTimesShownInterest": "[class='settings-content__left col medium-7']", 
+      "ViewingTimesShownInterestText": "New viewing times for objects you have shown interest in",
+      "ContactInformationHeader": "[class='settings-content__left col medium-7'] h6",
+      "ContactInformationHeaderText": "Contact information",
+      "PhoneNumber": "[name='TPPPhoneInput']",
+      "Email": "[id='email']",
+      "Language": "[id='langauge']",
+      "BankIDHeader": "[class='settings-content__left col medium-7'] h6",
+      "BankIDHeaderText": "Verify your personal number with BankID",
+      "SSNField": "[id='ssn']",
+      "LoginWithBankIdButton": "[id='BankIdLoginBtn']",
+      "LoginViaQRcodeButton": "[onclick='loginUsingScriveID(true)']",
+      "LoginViaQRcodeButtonText": "LoginViaQRcodeButton",
+
+      "ChangePasswordHeader": "[class='settings-content__left col medium-7'] h6",
+      "ChangePasswordHeaderText": "Change password",
+      "OldPassword": "[id='OldPass']",
+      "NewPassword": "[id='Pass']",
+      "ConfirmPassword": "[id='ConfirmPass']",
+      "SavedChangesButton": "[type='submit'][value='Save changes']",
+      "IWantToBecomeALandlordButton": "[type='submit'][value='I want to become a landlord']",
+      "SettingsHeader2": "[class='mod-header'] h1",
+      "SettingsHeader2Text": "Update email address",
+      "ExistingEmail": "[id='existingEmail']",
+      "NewEmail": "[id='newEmail']",
+      "ConfirmNewEmail": "[id='confirmEmail']",
+      "UpdateEmailButton": "[type='submit'][value='Update email address']",
+
+      "Logout": "li a[href='/Account/LogOff']",
+      "HomePageHeader": "[class='top-section-panel__h1']",
+      "HomePageHeaderText": "Explore your future home"
+
+    }
+  }
